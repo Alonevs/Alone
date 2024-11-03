@@ -1,0 +1,64 @@
+/* Reset básico para eliminar márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para el body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Estilo para el encabezado */
+  header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #ff4e50, #f9d423);
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid #ff4e50;
+    border-radius: 5px;
+  }
+  
+  /* Para el subtítulo del encabezado (opcional) */
+  header h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+  }
+  
+  /* Estilos adicionales para el contenido */
+  main {
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  /* Estilo para botones */
+  button {
+    background-color: #ff4e50;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e43e41;
+  }
+  
